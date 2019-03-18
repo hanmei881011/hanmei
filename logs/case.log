@@ -1,0 +1,4 @@
+2019-03-15 15:45:11,659 - login_test- INFO - 开始执行第1个测试用例： - [test_login.py:21]
+2019-03-15 15:45:11,780 - login_test- INFO - {"status":1,"code":"10001","data":null,"msg":"登录成功"} - [test_login.py:31]
+2019-03-15 15:45:11,781 - login_test- INFO - 开始执行第2个测试用例： - [test_login.py:21]
+2019-03-15 15:45:11,868 - login_test- INFO - {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"} - [test_login.py:31]
