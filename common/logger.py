@@ -1,6 +1,6 @@
 import logging
 import logging.handlers
-from loan_hanmei.common import contants
+from common import contants
 #debug   info    warn   error   critical   五种错误类型
 
 def get_logger(logger_name):

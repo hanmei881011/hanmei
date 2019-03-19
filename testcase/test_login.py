@@ -1,10 +1,10 @@
 import unittest
-from loan_hanmei.common import doexcel
-from loan_hanmei.common.request import Request
+from common import doexcel
+from common.request import Request
 from ddt import ddt,data
 # from loan_hanmei.common.logger import get_logger
-from loan_hanmei.common import logger
-from loan_hanmei.common import contants
+from common import logger
+from common import contants
 
 logg = logger.get_logger("login_test")
 @ddt

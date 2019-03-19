@@ -1,8 +1,8 @@
 import unittest
-from loan_hanmei.common import doexcel
-from loan_hanmei.common.request import Request
+from common import doexcel
+from common.request import Request
 from ddt import ddt,data
-from loan_hanmei.common import contants
+from common import contants
 
 #1.excel里设计第一条用例是正常登录后，充值的时候就可以拿到cookie
 #2.用session方式来传递，就需要把request的实例化的对象放到类里

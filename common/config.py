@@ -1,5 +1,5 @@
 import configparser
-from loan_hanmei.common import contants
+from common import contants
 
 class ReadConfig:
     def __init__(self):

@@ -1,10 +1,10 @@
 import unittest
-from loan_hanmei.common import doexcel
-from loan_hanmei.common.request import Request
+from common import doexcel
+from common.request import Request
 from ddt import ddt,data
-from loan_hanmei.common.mysql import MysqlUtil
-from loan_hanmei.common.config import ReadConfig
-from loan_hanmei.common import contants
+from common.mysql import MysqlUtil
+from common.config import ReadConfig
+from common import contants
 
 @ddt
 class RegisterTest(unittest.TestCase):

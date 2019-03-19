@@ -116,8 +116,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">API</h1>
 <p class='attribute'><strong>测试人员 : </strong> hanmei</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-03-15 15:45:10</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:02.452296</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-03-19 11:42:53</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:02.247310</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 18，通过 17，失败 1，通过率= 94.44%</p>
 
 <p class='description'>This is my first report!</p>
@@ -294,7 +294,7 @@ response:{"status":1,"code":"10001","data":null,"msg":"加标成功"}
     
 pt2_3: 开始执行第2个测试用例：
 method:POST,url:http://47.107.168.87:8080/futureloan/mvc/api/loan/audit
-data:{'id': '17098', 'status': '4'}
+data:{'id': '17531', 'status': '4'}
 response:{"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
 {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
 
@@ -340,7 +340,7 @@ response:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
     
 pt2_5: 开始执行第4个测试用例：
 method:POST,url:http://47.107.168.87:8080/futureloan/mvc/api/member/bidLoan
-data:{'memberId': '1118782', 'password': '123456', 'loanId': '17098', 'amount': '10000'}
+data:{'memberId': '1118782', 'password': '123456', 'loanId': '17531', 'amount': '10000'}
 response:{"status":1,"code":"10001","data":null,"msg":"竞标成功"}
 {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
 
@@ -447,15 +447,15 @@ response:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
 ft4_2: 开始执行第1个测试用例：
 method:POST,url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
 data:{'mobilephone': '18800000001', 'amount': '100'}
-response:{"status":1,"code":"10001","data":{"id":1118782,"regname":"妖孽","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18800000001","leaveamount":"-29690.00","type":"1","regtime":"2019-02-16 21:17:48.0"},"msg":"充值成功"}
+response:{"status":1,"code":"10001","data":{"id":1118782,"regname":"妖孽","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18800000001","leaveamount":"-39590.00","type":"1","regtime":"2019-02-16 21:17:48.0"},"msg":"充值成功"}
 Traceback (most recent call last):
   File "E:\Users\admin\AppData\Local\Programs\Python\Python36\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\Users\mei.han\PycharmProjects\python13\loan_hanmei\testcase\test_recharge.py", line 30, in test_login
+  File "C:\Users\mei.han\PycharmProjects\python13\testcase\test_recharge.py", line 30, in test_login
     raise e
-  File "C:\Users\mei.han\PycharmProjects\python13\loan_hanmei\testcase\test_recharge.py", line 26, in test_login
+  File "C:\Users\mei.han\PycharmProjects\python13\testcase\test_recharge.py", line 26, in test_login
     self.assertEqual(case.expected,resp.text)
-AssertionError: '{"st[138 chars]nt":"10110.00","type":"1","regtime":"2019-02-1[24 chars]成功"}' != '{"st[138 chars]nt":"-29690.00","type":"1","regtime":"2019-02-[25 chars]成功"}'
+AssertionError: '{"st[138 chars]nt":"10110.00","type":"1","regtime":"2019-02-1[24 chars]成功"}' != '{"st[138 chars]nt":"-39590.00","type":"1","regtime":"2019-02-[25 chars]成功"}'
 Diff is 749 characters long. Set self.maxDiff to None to see it.
 
 
@@ -509,7 +509,7 @@ response:{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
     
 pt5_1: 开始执行第1个测试用例：
 method:POST,url:http://47.107.168.87:8080/futureloan/mvc/api/member/register
-data:{'mobilephone': 18999688277, 'pwd': '123456'}
+data:{'mobilephone': 18999688568, 'pwd': '123456'}
 response:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
 {"status":1,"code":"10001","data":null,"msg":"注册成功"}
 

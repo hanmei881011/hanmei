@@ -1,4 +1,4 @@
-from loan_hanmei.common.config import ReadConfig
+from common.config import ReadConfig
 import re
 
 config = ReadConfig()

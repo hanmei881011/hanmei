@@ -1,6 +1,6 @@
 import unittest
 import HTMLTestRunnerNew
-from loan_hanmei.common import contants
+from common import contants
 
 discover = unittest.defaultTestLoader.discover(start_dir="testcase",pattern="test_*.py")
 
